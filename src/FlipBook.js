@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import HTMLFlipBook from "react-pageflip";
 
 import WhitePage from "./assets/images/NewsLetter/white.jpg";
+import ElevateHead from "./elevate_now.png";
 import Image from "./assets/images/NewsLetter/00.png";
 import Image1 from "./assets/images/NewsLetter/01.png";
 import Image2 from "./assets/images/NewsLetter/02.png";
@@ -38,112 +39,119 @@ import Image31 from "./assets/images/NewsLetter/31.png";
 export default class FlipBook extends Component {
   render() {
     return (
-      <section className="m-4 ml-5 pl-5">
-        <HTMLFlipBook width={422} height={601}>
-          <div className="demoPage">
-            <img src={WhitePage} width="422" height="601" alt="" />
-          </div>
-          <div className="demoPage">
-            <img src={Image} width="422" height="601" alt="" />
-          </div>
-          <div className="demoPage">
-            <img src={Image1} width="422" height="601" alt="" />
-          </div>
-          <div className="demoPage">
-            <img src={Image2} width="422" height="601" alt="" />
-          </div>
-          <div className="demoPage">
-            <img src={Image3} width="422" height="601" alt="" />
-          </div>
-          <div className="demoPage">
-            <img src={Image4} width="422" height="601" alt="" />
-          </div>
-          <div className="demoPage">
-            <img src={Image5} width="422" height="601" alt="" />
-          </div>
-          <div className="demoPage">
-            <img src={Image6} width="422" height="601" alt="" />
-          </div>
-          <div className="demoPage">
-            <img src={Image7} width="422" height="601" alt="" />
-          </div>
-          <div className="demoPage">
-            <img src={Image8} width="422" height="601" alt="" />
-          </div>
-          <div className="demoPage">
-            <img src={Image9} width="422" height="601" alt="" />
-          </div>
-          <div className="demoPage">
-            <img src={Image10} width="422" height="601" alt="" />
-          </div>
-          <div className="demoPage">
-            <img src={Image11} width="422" height="601" alt="" />
-          </div>
-          <div className="demoPage">
-            <img src={Image12} width="422" height="601" alt="" />
-          </div>
-          <div className="demoPage">
-            <img src={Image13} width="422" height="601" alt="" />
-          </div>
-          <div className="demoPage">
-            <img src={Image14} width="422" height="601" alt="" />
-          </div>
-          <div className="demoPage">
-            <img src={Image15} width="422" height="601" alt="" />
-          </div>
-          <div className="demoPage">
-            <img src={Image16} width="422" height="601" alt="" />
-          </div>
-          <div className="demoPage">
-            <img src={Image17} width="422" height="601" alt="" />
-          </div>
-          <div className="demoPage">
-            <img src={Image18} width="422" height="601" alt="" />
-          </div>
-          <div className="demoPage">
-            <img src={Image19} width="422" height="601" alt="" />
-          </div>
-          <div className="demoPage">
-            <img src={Image20} width="422" height="601" alt="" />
-          </div>
-          <div className="demoPage">
-            <img src={Image21} width="422" height="601" alt="" />
-          </div>
-          <div className="demoPage">
-            <img src={Image22} width="422" height="601" alt="" />
-          </div>
-          <div className="demoPage">
-            <img src={Image23} width="422" height="601" alt="" />
-          </div>
-          <div className="demoPage">
-            <img src={Image24} width="422" height="601" alt="" />
-          </div>
-          <div className="demoPage">
-            <img src={Image25} width="422" height="601" alt="" />
-          </div>
-          <div className="demoPage">
-            <img src={Image26} width="422" height="601" alt="" />
-          </div>
-          <div className="demoPage">
-            <img src={Image27} width="422" height="601" alt="" />
-          </div>
-          <div className="demoPage">
-            <img src={Image28} width="422" height="601" alt="" />
-          </div>
-          <div className="demoPage">
-            <img src={Image29} width="422" height="601" alt="" />
-          </div>
-          <div className="demoPage">
-            <img src={Image30} width="422" height="601" alt="" />
-          </div>
-          <div className="demoPage">
-            <img src={Image31} width="422" height="601" alt="" />
-          </div>
-          <div className="demoPage">
-            <img src={WhitePage} width="422" height="601" alt="" />
-          </div>
-        </HTMLFlipBook>
-      </section>
+      <>
+        <div
+          className="d-flex d-md-block d-none bg-dark justify-content-center align-items-center"
+          style={{ height: "17vh" }}
+        >
+          <img src={ElevateHead} alt="" />
+        </div>
+        <section
+          className="container p-2 d-flex justify-content-center align-items-center mt-3"
+          style={{ overflow: "hidden" }}
+        >
+          <HTMLFlipBook width={422} height={601}>
+            <div className="bg-dark"></div>
+            <div className="">
+              <img src={Image} width="422" height="601" alt="" />
+            </div>
+            <div className="">
+              <img src={Image1} width="422" height="601" alt="" />
+            </div>
+            <div className="">
+              <img src={Image2} width="422" height="601" alt="" />
+            </div>
+            <div className="">
+              <img src={Image3} width="422" height="601" alt="" />
+            </div>
+            <div className="">
+              <img src={Image4} width="422" height="601" alt="" />
+            </div>
+            <div className="">
+              <img src={Image5} width="422" height="601" alt="" />
+            </div>
+            <div className="">
+              <img src={Image6} width="422" height="601" alt="" />
+            </div>
+            <div className="">
+              <img src={Image7} width="422" height="601" alt="" />
+            </div>
+            <div className="">
+              <img src={Image8} width="422" height="601" alt="" />
+            </div>
+            <div className="">
+              <img src={Image9} width="422" height="601" alt="" />
+            </div>
+            <div className="">
+              <img src={Image10} width="422" height="601" alt="" />
+            </div>
+            <div className="">
+              <img src={Image11} width="422" height="601" alt="" />
+            </div>
+            <div className="">
+              <img src={Image12} width="422" height="601" alt="" />
+            </div>
+            <div className="">
+              <img src={Image13} width="422" height="601" alt="" />
+            </div>
+            <div className="">
+              <img src={Image14} width="422" height="601" alt="" />
+            </div>
+            <div className="">
+              <img src={Image15} width="422" height="601" alt="" />
+            </div>
+            <div className="">
+              <img src={Image16} width="422" height="601" alt="" />
+            </div>
+            <div className="">
+              <img src={Image17} width="422" height="601" alt="" />
+            </div>
+            <div className="">
+              <img src={Image18} width="422" height="601" alt="" />
+            </div>
+            <div className="">
+              <img src={Image19} width="422" height="601" alt="" />
+            </div>
+            <div className="">
+              <img src={Image20} width="422" height="601" alt="" />
+            </div>
+            <div className="">
+              <img src={Image21} width="422" height="601" alt="" />
+            </div>
+            <div className="">
+              <img src={Image22} width="422" height="601" alt="" />
+            </div>
+            <div className="">
+              <img src={Image23} width="422" height="601" alt="" />
+            </div>
+            <div className="">
+              <img src={Image24} width="422" height="601" alt="" />
+            </div>
+            <div className="">
+              <img src={Image25} width="422" height="601" alt="" />
+            </div>
+            <div className="">
+              <img src={Image26} width="422" height="601" alt="" />
+            </div>
+            <div className="">
+              <img src={Image27} width="422" height="601" alt="" />
+            </div>
+            <div className="">
+              <img src={Image28} width="422" height="601" alt="" />
+            </div>
+            <div className="">
+              <img src={Image29} width="422" height="601" alt="" />
+            </div>
+            <div className="">
+              <img src={Image30} width="422" height="601" alt="" />
+            </div>
+            <div className="">
+              <img src={Image31} width="422" height="601" alt="" />
+            </div>
+            <div className="bg-dark"></div>
+          </HTMLFlipBook>
+        </section>
+      </>
     );
   }
 }

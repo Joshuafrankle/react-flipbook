@@ -1,1 +1,16 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
+
+.flipbook {
+  padding: 30px;
+}
+
+@media only screen and (max-width: 700px) {
+  .fliphead {
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    overflow: visible;
+    margin-left: 5px;
+  }
+}
