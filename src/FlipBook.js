@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import HTMLFlipBook from "react-pageflip";
 
-import WhitePage from "./assets/images/NewsLetter/white.jpg";
+//import WhitePage from "./assets/images/NewsLetter/white.jpg";
 import ElevateHead from "./elevate_now.png";
 import Image from "./assets/images/NewsLetter/00.png";
 import Image1 from "./assets/images/NewsLetter/01.png";
@@ -40,18 +40,14 @@ export default class FlipBook extends Component {
   render() {
     return (
       <>
-        <div
-          className="d-flex d-md-block d-none bg-dark justify-content-center align-items-center"
-          style={{ height: "17vh" }}
-        >
-          <img src={ElevateHead} alt="" />
+        <div className="container d-flex justify-content-center bg-dark">
+          <img className="" src={ElevateHead} height={100} alt="" />
         </div>
         <section
-          className="container p-2 d-flex justify-content-center align-items-center mt-3"
+          className=" bg-dark container fliphead p-2 d-flex flex-column justify-content-center align-items-center mt-1"
           style={{ overflow: "hidden" }}
         >
           <HTMLFlipBook width={422} height={601}>
-            <div className="bg-dark"></div>
             <div className="">
               <img src={Image} width="422" height="601" alt="" />
             </div>
