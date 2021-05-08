@@ -48,6 +48,7 @@ export default class FlipBook extends Component {
           style={{ overflow: "hidden" }}
         >
           <HTMLFlipBook width={422} height={601}>
+            <div className="bg-dark"></div>
             <div className="">
               <img src={Image} width="422" height="601" alt="" />
             </div>
