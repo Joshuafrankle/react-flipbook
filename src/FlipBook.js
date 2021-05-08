@@ -47,6 +47,7 @@ export default class FlipBook extends Component {
           className=" bg-dark container fliphead p-2 d-flex flex-column justify-content-center align-items-center mt-1"
           style={{ overflow: "hidden" }}
         >
+          <div className="bg-dark"></div>
           <HTMLFlipBook width={422} height={601}>
             <div className="bg-dark"></div>
             <div className="">
