@@ -39,7 +39,7 @@ import Image31 from "./assets/images/NewsLetter/31.png";
 export default class FlipBook extends Component {
   render() {
     return (
-      <>
+      <div className="bg-dark">
         <div className="container d-flex justify-content-center bg-dark">
           <img className="" src={ElevateHead} height={100} alt="" />
         </div>
@@ -149,7 +149,7 @@ export default class FlipBook extends Component {
             <div className="bg-dark"></div>
           </HTMLFlipBook>
         </section>
-      </>
+      </div>
     );
   }
 }
