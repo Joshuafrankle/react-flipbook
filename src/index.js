@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import FlipBook from "./FlipBook";
+import Layout from "./Layout";
 
 ReactDOM.render(
   <React.StrictMode>
-    <FlipBook />
+    <Layout />
   </React.StrictMode>,
   document.getElementById("root")
 );
