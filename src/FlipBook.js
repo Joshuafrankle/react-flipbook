@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import HTMLFlipBook from "react-pageflip";
+import { useEffect } from "react";
 
 //import WhitePage from "./assets/images/NewsLetter/white.jpg";
 import ElevateHead from "./elevate_now.png";
@@ -40,7 +41,10 @@ export default class FlipBook extends Component {
   render() {
     return (
       <div className="bg-dark">
-        <div className="container d-flex justify-content-center bg-dark">
+        <div
+          className="container d-flex justify-content-center bg-dark"
+          style={{ height: "100vh" }}
+        >
           <img className="" src={ElevateHead} height={100} alt="" />
         </div>
         <section
